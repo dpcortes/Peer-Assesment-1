@@ -91,7 +91,7 @@ avgStep <- tapply(tidydata$steps, tidydata$interval, mean)
 plot(Interval,avgStep,type="l",ylab="Average steps", main="Average steps per interval")
 ```
 
-[plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png) 
+[plot of chunk unnamed-chunk-5](https://github.com/dpcortes/Peer-Assesment-1/blob/master/figure/Figure%202-chunk-5-1.png) 
 
 To see Which 5-minute interval across all the days in the dataset contains,  on average, the maximum number of steps, we use the function `names` to find that one with the maximum average number of steps using `which.max()` argument.
 
