@@ -210,4 +210,4 @@ xyplot(steps ~ interval | day, data = avgStep2, type = "l", layout = c(1, 2),
     xlab = "Interval", ylab = "Number of steps", main = "Average steps by day")
 ```
 
-[plot of chunk unnamed-chunk-13](https://github.com/dpcortes/Peer-Assesment-1/blob/master/figure/Figure%204-chunk-13-1.png) [plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-2.png) 
+[plot of chunk unnamed-chunk-13](https://github.com/dpcortes/Peer-Assesment-1/blob/master/figure/Figure%204-chunk-13-1.png) [plot of chunk unnamed-chunk-13](https://github.com/dpcortes/Peer-Assesment-1/blob/master/figure/Figure%205-chunk-13-2.png) 
