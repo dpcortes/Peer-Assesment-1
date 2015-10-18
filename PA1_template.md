@@ -54,7 +54,7 @@ steps<-aggregate(steps ~ date, tidydata, sum)
 hist(steps$steps, main="Total number of steps taken each day", xlab="Steps per Day", col="green")
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png) 
+[plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png) 
 
 Then, we calculate the mean and the median
 
@@ -91,7 +91,7 @@ avgStep <- tapply(tidydata$steps, tidydata$interval, mean)
 plot(Interval,avgStep,type="l",ylab="Average steps", main="Average steps per interval")
 ```
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png) 
+[plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png) 
 
 To see Which 5-minute interval across all the days in the dataset contains,  on average, the maximum number of steps, we use the function `names` to find that one with the maximum average number of steps using `which.max()` argument.
 
@@ -155,7 +155,7 @@ steps2 <- aggregate(steps ~ date, datos2, sum)
 hist(steps2$steps, main="Total number of steps taken each day", xlab="Steps per Day", col="green")
 ```
 
-![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png) 
+[plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png) 
 
 Median an mean are:
 
@@ -210,4 +210,4 @@ xyplot(steps ~ interval | day, data = avgStep2, type = "l", layout = c(1, 2),
     xlab = "Interval", ylab = "Number of steps", main = "Average steps by day")
 ```
 
-![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png) ![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-2.png) 
+[plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png) [plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-2.png) 
