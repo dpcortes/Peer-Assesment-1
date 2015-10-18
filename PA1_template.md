@@ -155,7 +155,7 @@ steps2 <- aggregate(steps ~ date, datos2, sum)
 hist(steps2$steps, main="Total number of steps taken each day", xlab="Steps per Day", col="green")
 ```
 
-[plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10-1.png) 
+[plot of chunk unnamed-chunk-10](https://github.com/dpcortes/Peer-Assesment-1/blob/master/figure/Figure%203-chunk-10-1.png) 
 
 Median an mean are:
 
