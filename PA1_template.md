@@ -54,7 +54,7 @@ steps<-aggregate(steps ~ date, tidydata, sum)
 hist(steps$steps, main="Total number of steps taken each day", xlab="Steps per Day", col="green")
 ```
 
-[plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png) 
+[plot of chunk unnamed-chunk-3](https://github.com/dpcortes/Peer-Assesment-1/figure/unnamed-chunk-3) 
 
 Then, we calculate the mean and the median
 
